@@ -15,5 +15,8 @@
         "build": "webpack --mode development"
     },
     "author": "Ian Wright",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "obs-websocket-js": "^4.0.2"
+    }
 }
