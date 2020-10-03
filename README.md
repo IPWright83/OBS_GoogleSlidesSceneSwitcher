@@ -4,13 +4,13 @@ Chrome extension to allow switching scenes in OBS from a Google Slide
 
 ## Install
 
-Download the `dist.crx` file and install it as a Chrome extension (drag/drop onto the extensions page).
+Download the `dist` directory of the repository. Within Chrome navigate to `Extensions` and select `Load Unpacked`. Choose the `dist` directory and the extension will be installed.
 
 ## Configure OBS
 
 To use this extension you firstly need [OBS](https://obsproject.com/) installed, along with the [remote websocket extension](https://github.com/Palakis/obs-websocket).
 
-One you have these, you need to present a Google slide in the "Presenter View". It's the controller in the presenter view that controls switching scenes in OBS. Whenever you click the previous/next buttons to navigate between slides, OBS will be asked to switch scene for you.
+One you have these, you need to present a Google slide in the "Presenter View". You should ensure the websocket server is listening before presenting. It's the controller in the presenter view that controls switching scenes in OBS. Whenever you click the previous/next buttons to navigate between slides, OBS will be asked to switch scene for you.
 
 **NOTE**: Switching slides with keyboard navigation will not update OBS slides.
 
